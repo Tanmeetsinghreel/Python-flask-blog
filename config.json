@@ -1,0 +1,21 @@
+{
+  "params":
+  {
+    "local_server": "True",
+    "local_uri": "mysql://root:@localhost/codersback",
+    "production_uri": "mysql://root:@localhost/codersback",
+    "fb_url": "https://facebook.com/codingthunder",
+    "tw_url": "https://twitter.com/codingthunder",
+    "gh_url": "https://github.com/codingthunder",
+    "blog_name": "Coding Thunders",
+    "tag_line": "A blog like by programmers.",
+    "gmail_user": "tanmeetsingh202@gmail.com",
+    "gmail_password": "Tanmeet@123",
+    "about_text": "Hello! My name is Tanmeet,the creator of Coding Thunders.",
+    "no_of_posts": 3,
+    "login_image": "login.svg",
+    "admin_user": "tanmeet",
+    "admin_password": "tsr123",
+    "upload_location": "C:\\Users\\hp\\PycharmProjects\\Flaskk Tuts\\static"
+  }
+}
