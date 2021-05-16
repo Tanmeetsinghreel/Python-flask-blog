@@ -10,7 +10,7 @@ import math
 with open("config.json","r") as c:
     params = json.load(c)["params"]
 
-local_server = True,host='0.0.0.0'
+local_server = '0.0.0.0'
 
 app = Flask(__name__)
 app.secret_key = "super-secret-key"
