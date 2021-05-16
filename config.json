@@ -1,7 +1,7 @@
 {
   "params":
   {
-    "local_server": "True",
+    "local_server": ,
     "local_uri": "mysql://root:/codersback",
     "production_uri": "mysql://0.0.0.0:/codersback",
     "fb_url": "https://facebook.com/codingthunder",
