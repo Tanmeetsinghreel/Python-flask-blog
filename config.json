@@ -3,7 +3,7 @@
   {
     "local_server": ,
     "local_uri": "mysql://root:/codersback",
-    "production_uri": "mysql://0.0.0.0:/codersback",
+    "production_uri": "mysql://root:/codersback",
     "fb_url": "https://facebook.com/codingthunder",
     "tw_url": "https://twitter.com/codingthunder",
     "gh_url": "https://github.com/codingthunder",
