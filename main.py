@@ -10,7 +10,7 @@ import math
 with open("config.json","r") as c:
     params = json.load(c)["params"]
 
-local_server = '0.0.0.0'
+local_server = True
 
 app = Flask(__name__)
 app.secret_key = "super-secret-key"
@@ -180,6 +180,6 @@ def contact():
     return render_template('contact.html',params=params)
 
 if __name__ == "__main__":
-    app.run(debug=False, host='0.0.0.0')
+    app.run(debug=True, host="0.0.0.0")
 
 
