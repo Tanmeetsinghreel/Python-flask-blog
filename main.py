@@ -179,7 +179,7 @@ def contact():
         flash("Thanks for submitting your details. We will get back to you soon","success")
     return render_template('contact.html',params=params)
 
-
-app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=False, host='0.0.0.0')
 
 
